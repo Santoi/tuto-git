@@ -4,8 +4,7 @@
 int suma(int a, int b);
 
 int suma(int a, int b) {
-    int suma = a + b;
-    return suma;
+    return a + b;
 }
 
 int main(int argc, char *argv[]) {
