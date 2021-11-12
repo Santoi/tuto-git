@@ -3,6 +3,11 @@
 
 int suma(int a, int b);
 
+int suma(int a, int b) {
+    int suma = a + b;
+    return suma;
+}
+
 int main(int argc, char *argv[]) {
     if (argc != 3) {
         fprintf(stderr, "Se requieren 2 números para sumarlos\n\t$ ./suma <num1> <num2>\n");
