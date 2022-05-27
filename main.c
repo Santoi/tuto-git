@@ -3,9 +3,14 @@
 
 int suma(int a, int b);
 int resta(int a, int b);
+int multiplicacion(int a, int b);
 
 int resta(int a, int b) {
     return a - b;
+}
+
+int multiplicacion(int a, int b) {
+    return a * b;
 }
 
 int suma(int a, int b) {
@@ -19,7 +24,7 @@ int main(int argc, char *argv[]) {
     }
 
     int a = atoi(argv[1]), b = atoi(argv[2]);
-    printf("%d\n", suma(a, b));
+    printf("%d\n", multiplicacion(a, b));
 
     return 0;
 }
